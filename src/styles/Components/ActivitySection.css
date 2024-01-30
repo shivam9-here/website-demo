@@ -1,0 +1,95 @@
+.activity-section{
+height: 100vh;
+}
+.activity-section{
+    padding: 120px 0;
+}
+.activity-container{
+
+    padding: 0 70px;
+}
+.activity-tilte{
+    color: var(--cetacean-blue-04,#060b43);
+    font-family: 'Titillium Web',sans-serif!important;
+    font-size: 64px!important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: center;
+}
+.activity-des-txt{
+    color: #333;
+    text-align: center;
+    font-family: Inter,sans-serif!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 49%;
+    margin: auto;
+    padding-top: 12px;
+
+}
+.activity-slider{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+.activity-card{
+  width: 31%;
+  background-size: cover;
+  height: 480px;
+  border-radius: 6px;
+  padding: 50px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: inset 0 10px 300px #000;
+    transition: .4s linear;
+    overflow: hidden;
+}
+.activity-card-text{
+    
+   display: flex;
+   justify-content: space-between;
+   min-height: 130px;
+   width: 100%;
+   align-items: self-end;
+}
+.card-text{
+    color: #fff;
+    font-family: 'Titillium Web',sans-serif!important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+.card-btn::before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 100px;
+        padding: 2px;
+        background: linear-gradient(100deg,#00b0e9,#005a9b);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        left: -10px;
+        width: 54px;
+        height: 38px
+}
+.card-btn {
+    color: #fff;
+    font-size: 124px;
+    padding-top: 4px;
+    
+}
+.op{
+   
+    overflow-x: hidden;
+}

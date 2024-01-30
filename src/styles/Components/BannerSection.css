@@ -1,0 +1,94 @@
+
+.herobannercontainer{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #013674;
+    text-align: center;
+}
+.hero-main{
+    padding: 0px 112px;
+}
+.banner-content{
+    padding: 323px 0 188px;
+}
+.banner-heading{
+    color: #fff!important;
+    font-size: 96px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106px;
+    padding: 0;
+}
+.banner-heading span{
+    display: block;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    outline: none;
+    background: linear-gradient(135deg,#188de0,#47bbe6 25%,#91d4ed 50%,#3db4df 75%,#188de0);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
+}
+.btn-cont{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.banner-btn{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: inter,sans-serif!important;
+    border-radius: 8px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: inset 0 0 5px 0 #fff;
+    transition: .5s;
+    width: 16%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+}
+
+@media (max-width: 1024px) {
+    .hero-main{
+        padding: 0px 24px;
+    }
+    .banner-content{
+        padding: 200px 0 120px;
+    }
+    .banner-heading{
+        font-size: 71px;
+        line-height: 74px;
+    }
+}
+   
+@media (max-width: 768px) {
+    .banner-content{
+        padding: 150px 0 ;
+}
+.banner-heading{
+    font-size: 38px !important;
+    line-height: 48px;
+}
+.banner-heading span{
+    font-size: 38px !important;
+    line-height: 48px;
+}
+}
+@media (max-width: 376px) {
+    .btn-cont{
+        padding-top: 63px;
+    }
+    .banner-btn{
+        padding: 16px 20px;
+        width: 100%;
+    }
+}
